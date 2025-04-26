@@ -1,0 +1,8 @@
+PrimaryKey,Sire,Dam,Sex,Color,Year,Details,URL,Horse Name,Generation,LoadURL,
+HorseA,HorseB,HorseC,M,,2040,HorseA,HorseA,HorseA,0,TRUE,1
+HorseB,HorseD,HorseE,M,,1940,HorseB,HorseB,HorseB,0,TRUE,1
+HorseC,HorseD,HorseF,H,gr.,1840,HorseC,HorseC,HorseC,0,TRUE,1
+HorseD,,,M,,1740,HorseD,HorseD,HorseD,0,TRUE,1
+HorseE,,,M,gr,1740,HorseE,HorseE,HorseE,0,TRUE,1
+HorseF,,,H,,,HorseF,HorseF,HorseF,0,TRUE,1
+HorseA2,HorseB,HorseF,M,,2040,HorseA2,HorseA2,HorseA2,0,TRUE,1
