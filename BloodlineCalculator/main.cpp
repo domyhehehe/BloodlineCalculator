@@ -42,7 +42,7 @@ static inline std::string trim(std::string s) {
 }
 
 std::unique_ptr<rocksdb::DB> db;          // メモ化キャッシュ本体
-constexpr const char* DBPATH = "./bloodcache_db";
+constexpr const char* DBPATH = "D:/AI/C++/blood_cache_db";
 
 //------------------------- 基本定数 -------------------------------
 static const std::string UNKNOWN_SIRE = "UNKNOWN_SIRE";
@@ -431,11 +431,11 @@ int main() {
     // ==========================================================
     // File-A  行 = 全馬, 列 = targets
     // ==========================================================
-    std::string fileA = "blood_of_" + idLabel + "_in_all_horses.csv";
+    std::string fileA = "D:/AI/C++/out/blood_of_" + idLabel + "_in_all_horses.csv";
     // ==========================================================
     // File-B  行 = targets, 列 = 全馬
     // ==========================================================
-    std::string fileB = "blood_of_all_horses_in_" + idLabel + ".csv";
+    std::string fileB = "D:/AI/C++/out/blood_of_all_horses_in_" + idLabel + ".csv";
 
     // ==========================================================
     // File-A  行 = 全馬, 列 = targets
