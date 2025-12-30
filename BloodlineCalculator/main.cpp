@@ -347,7 +347,7 @@ void saveAncVert(const std::string& out,
 }
 // =========================== main ===========================
 int main() {
-    loadBloodlineCSV("bloodline.csv");
+    loadBloodlineCSV("D:\\AI\\C++\\input\\bloodline.csv");
 
     // --- 入力 ---
     std::cout << "対象馬 (年/年レンジ/PrimaryKey をカンマ区切り): ";
